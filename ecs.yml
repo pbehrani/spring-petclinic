@@ -344,7 +344,7 @@ Resources:
         - Effect: Allow
           Principal:
             Service: [application-autoscaling.amazonaws.com]
-          Action: ['sts:AssumeRole']
+          Action: ['sts:AssumeRole', 'iam:CreateServiceLinkedRole']
       Path: /
       Policies:
       - PolicyName: service-autoscaling
