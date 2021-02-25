@@ -43,7 +43,7 @@ Resources:
                 Configuration:
                   Repo: !Ref GitHubRepo
                   Owner: !Ref GitHubRepoOwner
-                  Branch: master
+                  Branch: main
                   OAuthToken: !Ref GitHubToken
                 OutputArtifacts:
                   - Name: Source
